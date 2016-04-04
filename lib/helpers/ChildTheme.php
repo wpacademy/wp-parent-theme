@@ -23,7 +23,8 @@ class ChildTheme {
                 $$k = $v;
             }
         }
-        include 'wp/wp-content/themes/child-theme/partials/'.str_replace('.','/',$path).'.php';
+        $child_theme_dir = parse_url(self::path(), PHP_URL_PATH);
+        include ltrim($child_theme_dir,'/').'/partials/'.str_replace('.','/',$path).'.php';
     }
 
 }
