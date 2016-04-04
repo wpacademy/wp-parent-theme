@@ -1,0 +1,24 @@
+{
+  "name": "wp-parent-theme",
+  "description": "WordPress parent theme by Arne Hendriksen.",
+  "homepage": "http://arnehendriksen.com",
+  "authors": [
+    "Arne Hendriksen <arne.hendriksen@gmail.com>"
+  ],
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4"
+  },
+  "main": "",
+  "moduleType": [],
+  "license": "UNLICENSED",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

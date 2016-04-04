@@ -1,1 +1,18 @@
+### Composer
+/vendor
 
+### npm
+/node_modules/
+
+### Grunt
+/assets/fonts/
+
+### Bower
+/assets/vendor/
+
+### Sass
+.sass-cache/
+*.css.map
+
+### PhpStorm
+.idea/

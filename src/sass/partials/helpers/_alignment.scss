@@ -1,0 +1,22 @@
+.pt-center {
+  text-align: center;
+  * {
+    text-align: center;
+  }
+  ul {
+    display: inline-block
+  }
+  table tr th {
+    text-align: left;
+  }
+  input {
+    text-align: left;
+  }
+}
+
+ul.pt-inline {
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+}
