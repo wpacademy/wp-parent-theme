@@ -1,14 +1,14 @@
 ### Composer
-/vendor
+vendor/
 
 ### npm
-/node_modules/
+node_modules/
 
 ### Grunt
-/assets/fonts/
+assets/fonts/
 
 ### Bower
-/assets/vendor/
+assets/vendor/
 
 ### Sass
 .sass-cache/
