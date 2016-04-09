@@ -59,4 +59,19 @@
             return false;
         }
 
+        /**
+         * Deletes a file from storage.
+         *
+         * @param $file
+         * @return bool
+         */
+        public static function delete($file) {
+            if ( file_exists(self::$_path.'/'.$file) ) {
+                unlink(self::$_path.'/'.$file);
+                return true;
+            }
+            return false;
+        }
+
+
     }
